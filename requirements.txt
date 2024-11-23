@@ -3,5 +3,5 @@ pandas
 numpy
 faiss-cpu
 sentence-transformers
-openai
+openai==0.28.0
 PyPDF2
