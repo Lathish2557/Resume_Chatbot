@@ -11,7 +11,7 @@ from PyPDF2 import PdfReader
 PDF_FILE = "data/Resume.pdf"
 EMBEDDINGS_FILE = "data/embeddings.npy"
 FAISS_INDEX_FILE = "data/faiss_index.bin"
-OPENAI_API_KEY = st.text_input(OPENAI_API_KEY)  
+OPENAI_API_KEY = os.getenv(OPENAI_API_KEY)  
 
 # Set up OpenAI API key
 openai.api_key = OPENAI_API_KEY
