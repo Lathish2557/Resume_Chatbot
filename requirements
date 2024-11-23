@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-faiss-cpu
-sentence-transformers
-openai
-PyPDF2
