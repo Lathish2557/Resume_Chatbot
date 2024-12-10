@@ -102,8 +102,8 @@ def generate_response(query):
         return f"Error: {str(e)}"
 
 # --- STREAMLIT UI ---
-st.title("RAG Chatbot")
-st.write("Ask a question, and the chatbot will provide answers based on the PDF content.")
+st.title("Resume Chatbot")
+st.write("Ask a question about Lathish, and the chatbot will provide answers.")
 
 user_query = st.text_input("Enter your question:")
 
